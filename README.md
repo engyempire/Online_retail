@@ -16,4 +16,7 @@
 ## Data Source:
 https://archive.ics.uci.edu/
 
- 
+ ## Tools Used:
++	Pivot Table / Charts
++	PowerBI
++ SQL
