@@ -49,3 +49,6 @@ GROUP BY
 CustomerID, Country
 ORDER BY
 TotalSpend DESC;
+
+## Visualization
+### Pivot Tables 
