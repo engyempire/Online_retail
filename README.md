@@ -20,3 +20,6 @@ https://archive.ics.uci.edu/
 +	Pivot Table / Charts
 +	PowerBI
 + SQL
+
+  ## Table Outlay:
+First Three Records
