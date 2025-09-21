@@ -27,7 +27,7 @@ https://archive.ics.uci.edu/
 First Three Records
 
 |InvoiceNo	|StockCode	|Description	|Quantity	|InvoiceDate	|UnitPrice	|CustomerID	|Country
-|----- | -----|----- |----- |----- |----- |----- |
+|----- | -----|----- |----- |----- |----- |----- |-----|
 |536365	|85123A	|WHITE |HANGING HEART T-LIGHT HOLDER|	6	12/1/2010 |8:26|	2.55	|17850|	United Kingdom
 |536365	|71053	|WHITE |METAL LANTERN	|6	12/1/2010| 8:26	|3.39|	17850|	United Kingdom
 |536365	|84406B	|CREAM |CUPID HEARTS COAT HANGER|	8	12/1/2010 | 8:26|	2.75	|17850|	United Kingdom
