@@ -36,20 +36,16 @@ First Three Records
 ### SQL
 Some of the query languages to retrieve records are displayed here
 
-SELECT
-    CustomerID,
-    Country,
-    SUM(Quantity * UnitPrice) AS TotalSpend,
-    CASE
-        WHEN SUM(Quantity * UnitPrice) > 5000 THEN 'High Value'
-        WHEN SUM(Quantity * UnitPrice) > 1000 THEN 'Medium Value'
-        ELSE 'Low Value'
-    END AS Segment
-FROM
-    OnlineRetail
-WHERE
-    CustomerID IS NOT NULL
+SELECT CustomerID,Country,
+SUM(Quantity * UnitPrice) AS TotalSpend,
+CASE
+WHEN SUM(Quantity * UnitPrice) > 5000 THEN 'High Value'
+WHEN SUM(Quantity * UnitPrice) > 1000 THEN 'Medium Value'
+ELSE 'Low Value'
+END AS Segment
+FROM OnlineRetail
+WHERE CustomerID IS NOT NULL
 GROUP BY
-    CustomerID, Country
+CustomerID, Country
 ORDER BY
-    TotalSpend DESC;
+TotalSpend DESC;
